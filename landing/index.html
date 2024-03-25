@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <title>Landing Page</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler " type="button" data-bs-toggle="collapse " data-bs-target="#navbarSupportContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item ">
+                            <a class="nav-link active " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a href="" class="nav-link dropdown-toggle " id="navbarDropdown" role="button" data-bs-toggle="dropdown " aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item " href="#">Action</a></li>
+                                <li><a class="dropdown-item " href="#">Another Action</a></li>
+                                <li><hr class="dropdown-divider " /></li>
+                                <li><a class="dropdown-item " href="#">Something else</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex " action="">
+                        <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success " type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="my-5 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-7 ">
+                    <img class="img-fluid " src="https://picsum.photos/id/233/600/400" alt="" />
+                </div>
+                <div class="col-md-5">
+                    <h1 class="mt-5 ">Tagline</h1>
+                    <p class="mt-4 ">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Illum dolorem aut quas. Distinctio tempore, et architecto 
+                        quibusdam, tempora nulla qui quod cupiditate ipsam corrupti 
+                        repellendus temporibus, nihil corporis autem in.
+                    </p>
+                    <button type="button" class="btn btn-primary mt-3 ">
+                        Call to action!
+                    </button>
+                </div>
+            </div>
+            <div class="row  my-5">
+                <div class="col ">
+                    <div class="bg-secondary text-white my-3 py-3 card text-center ">
+                        <div class="card-body ">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col">
+                    <div class="card-group ">
+                        <div class="card">
+                            <img class="card-img-top " src="https://picsum.photos/id/200/320/200" alt="..." />
+                            <div class="card-body ">
+                                <h5>Card title</h5>
+                                <p class="card-text ">
+                                    This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This contet is a little bit
+                                    longer.
+                                </p>
+                                <div>
+                                    <a href="#">
+                                        <button type="button" class="btn btn-primary ">
+                                            Read more
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top " src="https://picsum.photos/id/202/320/200" alt="" />
+                            <div class="card-body ">
+                                <h5 class="card-title ">Card title</h5>
+                                <p class="card-text ">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Libero ea illo dolor? Explicabo corrupti quia, obcaecati 
+                                    sequi, nihil officia.
+                                </p>
+                                <div>
+                                    <a href="#">
+                                        <button type="button" class="btn btn-primary ">
+                                            Read more
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>                  
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top " src="https://picsum.photos/id/201/320/200" alt="" />
+                            <div class="card-body ">
+                                <h5 class="card-title ">Card title</h5>
+                                <p class="card-text ">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Libero ea illo dolor? Explicabo corrupti quia, obcaecati 
+                                    sequi, nihil.
+                                </p>
+                                <div>
+                                    <a href="#">
+                                        <button type="button" class="btn btn-primary ">
+                                            Read more
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>                  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center ">
+                <h2>Get in touch</h2>
+                <p class="lead ">Questions? Do not hesitate to contact us.</p>
+            </div>
+            <div class="row justify-content-center my-5 ">
+                <div class="col-lg-6">
+                    <form action="">
+                        <label for="email" class="form-label ">Email:</label>
+                        <input type="email" id="email" placeholder="my@email.com" class="form-control "/>
+                        <label for="name" class="form-label ">Name:</label>
+                        <input type="name" id="name" placeholder="e.g. Your Name" class="form-control " />
+                        <label for="subject" class="form-label ">Subject</label>
+                        <select name="subject" id="subject" class="form-select ">
+                            <option value="pricing">Priceing</option>
+                            <option value="technical" selected>Technical Question</option>
+                            <option value="option">Option</option>
+                        </select>
+                        <div class="form-floating my-5 ">
+                            <textarea 
+                                class="form-control"
+                                name="query" 
+                                id="query" 
+                                style="height: 159px;"
+                                placeholder="Write a message"
+                                cols="30" 
+                                rows="10"></textarea>
+                                <label for="query">Write a message</label>
+                        </div>
+                        <div class="text-center ">
+                            <button type="submit" class="btn btn-primary ">Send</button>
+                        </div>
+                    </form>                   
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark ">
+        <div class="container ">
+            <span class="text-muted ">
+                Copyrights
+                <a href="https://w3schools.com">W3Schools.com</a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
